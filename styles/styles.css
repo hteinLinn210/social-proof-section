@@ -27,6 +27,7 @@ body {
 }
 
 main {
+   min-width: 375px;
    padding: 3rem 1rem 0;
 }
 
@@ -97,6 +98,13 @@ h1 {
 
 .name p {
    color: var(--soft-pink);
+}
+
+@media screen and (min-width: 500px) and (max-width: 1199px) {
+   .container {
+      margin: 0 auto;
+      max-width: 500px;
+   }
 }
 
 @media screen and (min-width: 1200px) {
